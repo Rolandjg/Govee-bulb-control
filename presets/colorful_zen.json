@@ -1,13 +1,13 @@
 {
   "update_hz": 12,
-  "min_brightness": 1,
+  "min_brightness": 99,
   "max_brightness": 100,
   "sigmoid_steepness": 8,
   "volume_decay": 0.05,
   "transient_decay": 0.5,
-  "treble_strobe_threshold": 0.6,
+  "treble_strobe_threshold": 0.8,
   "color_balance": "median",
-  "pitch_smoothing": 0.1,
+  "pitch_smoothing": 0.4,
   "beat_phase": false,
   "no_color_interpolation": false,
   "color_lf_lv": [
