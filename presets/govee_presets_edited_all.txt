@@ -1,0 +1,536 @@
+chill.json
+{
+  "update_hz": 8,
+  "min_brightness": 20,
+  "max_brightness": 60,
+  "sigmoid_steepness": 4,
+  "volume_decay": 0.05,
+  "transient_decay": 0.8,
+  "treble_strobe_threshold": 1.0,
+  "color_balance": "median",
+  "pitch_smoothing": 0.4,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    20,
+    0,
+    60
+  ],
+  "color_lf_hv": [
+    120,
+    0,
+    255
+  ],
+  "color_hf_lv": [
+    0,
+    180,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+flashy.json
+{
+  "update_hz": 15,
+  "min_brightness": 5,
+  "max_brightness": 100,
+  "sigmoid_steepness": 14,
+  "volume_decay": 0.25,
+  "transient_decay": 0.25,
+  "treble_strobe_threshold": 0.4,
+  "color_balance": "search",
+  "pitch_smoothing": 0.05,
+  "beat_phase": false,
+  "beat_threshold": 0.5,
+  "beat_sensitivity": 1.2,
+  "beat_cooldown": 0.18,
+  "no_color_interpolation": true,
+  "color_lf_lv": [
+    120,
+    0,
+    255
+  ],
+  "color_lf_hv": [
+    255,
+    0,
+    120
+  ],
+  "color_hf_lv": [
+    0,
+    255,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+forest.json
+{
+  "update_hz": 9,
+  "min_brightness": 10,
+  "max_brightness": 70,
+  "sigmoid_steepness": 5,
+  "volume_decay": 0.1,
+  "transient_decay": 0.7,
+  "color_balance": "median",
+  "pitch_smoothing": 0.3,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    20,
+    60,
+    20
+  ],
+  "color_lf_hv": [
+    80,
+    140,
+    40
+  ],
+  "color_hf_lv": [
+    120,
+    200,
+    120
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    180
+  ]
+}
+
+game.json
+{
+  "update_hz": 14,
+  "min_brightness": 5,
+  "max_brightness": 100,
+  "sigmoid_steepness": 12,
+  "volume_decay": 0.2,
+  "transient_decay": 0.4,
+  "color_balance": "search",
+  "pitch_smoothing": 0.08,
+  "beat_phase": true,
+  "beat_threshold": 0.55,
+  "beat_sensitivity": 1.25,
+  "beat_cooldown": 0.2,
+  "no_color_interpolation": true,
+  "color_lf_lv": [
+    0,
+    0,
+    120
+  ],
+  "color_lf_hv": [
+    0,
+    80,
+    255
+  ],
+  "color_hf_lv": [
+    0,
+    200,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+minimal.json
+{
+  "update_hz": 7,
+  "min_brightness": 15,
+  "max_brightness": 50,
+  "sigmoid_steepness": 3,
+  "volume_decay": 0.1,
+  "transient_decay": 0.9,
+  "color_balance": "fixed",
+  "pitch_smoothing": 0.5,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    30,
+    30,
+    30
+  ],
+  "color_lf_hv": [
+    180,
+    180,
+    180
+  ],
+  "color_hf_lv": [
+    30,
+    30,
+    30
+  ],
+  "color_hf_hv": [
+    180,
+    180,
+    180
+  ]
+}
+
+productive_blue.json
+{
+  "update_hz": 10,
+  "min_brightness": 1,
+  "max_brightness": 80,
+  "sigmoid_steepness": 6,
+  "volume_decay": 0.12,
+  "transient_decay": 0.6,
+  "color_balance": "median",
+  "pitch_smoothing": 0.25,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    80,
+    120,
+    255
+  ],
+  "color_lf_hv": [
+    80,
+    120,
+    255
+  ],
+  "color_hf_lv": [
+    255,
+    255,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+productive_green.json
+{
+  "update_hz": 10,
+  "min_brightness": 1,
+  "max_brightness": 80,
+  "sigmoid_steepness": 6,
+  "volume_decay": 0.12,
+  "transient_decay": 0.6,
+  "color_balance": "median",
+  "pitch_smoothing": 0.25,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    120,
+    255,
+    80
+  ],
+  "color_lf_hv": [
+    120,
+    255,
+    80
+  ],
+  "color_hf_lv": [
+    255,
+    255,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+productive_orange.json
+{
+  "update_hz": 10,
+  "min_brightness": 1,
+  "max_brightness": 80,
+  "sigmoid_steepness": 6,
+  "volume_decay": 0.12,
+  "transient_decay": 0.6,
+  "color_balance": "median",
+  "pitch_smoothing": 0.25,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    255,
+    120,
+    80
+  ],
+  "color_lf_hv": [
+    255,
+    120,
+    80
+  ],
+  "color_hf_lv": [
+    255,
+    255,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+pulse.json
+{
+  "update_hz": 12,
+  "min_brightness": 0,
+  "max_brightness": 100,
+  "sigmoid_steepness": 10,
+  "volume_decay": 0.4,
+  "transient_decay": 0.5,
+  "color_balance": "fixed",
+  "freq_threshold": 0.5,
+  "vol_threshold": 0.6,
+  "pitch_smoothing": 0.1,
+  "beat_phase": false,
+  "beat_threshold": 0.6,
+  "beat_sensitivity": 1.4,
+  "beat_cooldown": 0.25,
+  "no_color_interpolation": true,
+  "color_lf_lv": [
+    120,
+    0,
+    0
+  ],
+  "color_lf_hv": [
+    255,
+    40,
+    0
+  ],
+  "color_hf_lv": [
+    255,
+    140,
+    0
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    120
+  ]
+}
+
+space.json
+{
+  "update_hz": 10,
+  "min_brightness": 5,
+  "max_brightness": 80,
+  "sigmoid_steepness": 6,
+  "volume_decay": 0.1,
+  "transient_decay": 0.6,
+  "color_balance": "median",
+  "pitch_smoothing": 0.2,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    10,
+    0,
+    40
+  ],
+  "color_lf_hv": [
+    120,
+    0,
+    255
+  ],
+  "color_hf_lv": [
+    0,
+    150,
+    255
+  ],
+  "color_hf_hv": [
+    200,
+    255,
+    255
+  ]
+}
+
+strobe.json
+{
+  "update_hz": 15,
+  "min_brightness": 0,
+  "max_brightness": 100,
+  "sigmoid_steepness": 16,
+  "volume_decay": 0.3,
+  "transient_decay": 0.2,
+  "treble_strobe_threshold": 0.25,
+  "color_balance": "search",
+  "pitch_smoothing": 0.03,
+  "beat_phase": false,
+  "beat_threshold": 0.45,
+  "beat_sensitivity": 1.1,
+  "beat_cooldown": 0.12,
+  "no_color_interpolation": true,
+  "color_lf_lv": [
+    60,
+    0,
+    120
+  ],
+  "color_lf_hv": [
+    180,
+    0,
+    255
+  ],
+  "color_hf_lv": [
+    0,
+    255,
+    120
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+
+study.json
+{
+  "update_hz": 6,
+  "min_brightness": 10,
+  "max_brightness": 35,
+  "sigmoid_steepness": 3,
+  "volume_decay": 0.08,
+  "transient_decay": 0.9,
+  "treble_strobe_threshold": 1.0,
+  "color_balance": "fixed",
+  "pitch_smoothing": 0.6,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    40,
+    40,
+    40
+  ],
+  "color_lf_hv": [
+    200,
+    200,
+    200
+  ],
+  "color_hf_lv": [
+    40,
+    40,
+    40
+  ],
+  "color_hf_hv": [
+    200,
+    200,
+    200
+  ]
+}
+
+sunset.json
+{
+  "update_hz": 10,
+  "min_brightness": 15,
+  "max_brightness": 80,
+  "sigmoid_steepness": 6,
+  "volume_decay": 0.12,
+  "transient_decay": 0.6,
+  "color_balance": "median",
+  "pitch_smoothing": 0.25,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    255,
+    120,
+    80
+  ],
+  "color_lf_hv": [
+    255,
+    80,
+    0
+  ],
+  "color_hf_lv": [
+    255,
+    200,
+    120
+  ],
+  "color_hf_hv": [
+    255,
+    240,
+    200
+  ]
+}
+
+party.json
+{
+  "update_hz": 14,
+  "min_brightness": 3,
+  "max_brightness": 100,
+  "sigmoid_steepness": 11,
+  "volume_decay": 0.22,
+  "transient_decay": 0.35,
+  "treble_strobe_threshold": 0.65,
+  "color_balance": "search",
+  "pitch_smoothing": 0.08,
+  "beat_phase": true,
+  "beat_threshold": 0.52,
+  "beat_sensitivity": 1.2,
+  "beat_cooldown": 0.2,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    80,
+    0,
+    180
+  ],
+  "color_lf_hv": [
+    255,
+    0,
+    120
+  ],
+  "color_hf_lv": [
+    0,
+    220,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    80
+  ]
+}
+
+rave.json
+{
+  "update_hz": 15,
+  "min_brightness": 0,
+  "max_brightness": 100,
+  "sigmoid_steepness": 18,
+  "volume_decay": 0.32,
+  "transient_decay": 0.18,
+  "treble_strobe_threshold": 0.3,
+  "color_balance": "search",
+  "pitch_smoothing": 0.025,
+  "beat_phase": true,
+  "beat_threshold": 0.45,
+  "beat_sensitivity": 1.08,
+  "beat_cooldown": 0.14,
+  "no_color_interpolation": true,
+  "color_lf_lv": [
+    40,
+    0,
+    255
+  ],
+  "color_lf_hv": [
+    255,
+    0,
+    40
+  ],
+  "color_hf_lv": [
+    0,
+    255,
+    180
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
+

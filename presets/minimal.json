@@ -1,0 +1,32 @@
+{
+  "update_hz": 7,
+  "min_brightness": 15,
+  "max_brightness": 50,
+  "sigmoid_steepness": 3,
+  "volume_decay": 0.1,
+  "transient_decay": 0.9,
+  "color_balance": "fixed",
+  "pitch_smoothing": 0.5,
+  "beat_phase": false,
+  "no_color_interpolation": false,
+  "color_lf_lv": [
+    30,
+    30,
+    30
+  ],
+  "color_lf_hv": [
+    180,
+    180,
+    180
+  ],
+  "color_hf_lv": [
+    30,
+    30,
+    30
+  ],
+  "color_hf_hv": [
+    180,
+    180,
+    180
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "update_hz": 15,
+  "min_brightness": 5,
+  "max_brightness": 100,
+  "sigmoid_steepness": 14,
+  "volume_decay": 0.25,
+  "transient_decay": 0.25,
+  "treble_strobe_threshold": 0.4,
+  "color_balance": "search",
+  "pitch_smoothing": 0.05,
+  "beat_phase": false,
+  "beat_threshold": 0.5,
+  "beat_sensitivity": 1.2,
+  "beat_cooldown": 0.18,
+  "no_color_interpolation": true,
+  "color_lf_lv": [
+    120,
+    0,
+    255
+  ],
+  "color_lf_hv": [
+    255,
+    0,
+    120
+  ],
+  "color_hf_lv": [
+    0,
+    255,
+    255
+  ],
+  "color_hf_hv": [
+    255,
+    255,
+    255
+  ]
+}
