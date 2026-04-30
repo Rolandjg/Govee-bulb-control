@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-govee_desktop_ambient.py — Set Govee H6001 color from your X11 screen and
+Set Govee H6001 color from your X11 screen and
 brightness from actual speaker output audio.
 
 Requirements:
